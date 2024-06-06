@@ -19,7 +19,7 @@
   --bs-indigo: #6237FF;
   --bs-purple: #A1B0FC;
   --bs-pink: #D42DA3;
-  --bs-red: #EE4D47;
+  --bs-red: #ff0000;
   --bs-orange: #F17228;
   --bs-yellow: #FFC928;
   --bs-green: #79B93C;
@@ -637,6 +637,10 @@ progress {
   padding-left: var(--bs-gutter-x, 1rem);
   margin-right: auto;
   margin-left: auto;
+}
+
+.container {
+  overflow-x: hidden;
 }
 
 @media (min-width: 576px) {
