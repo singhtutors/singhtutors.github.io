@@ -3521,15 +3521,15 @@ fieldset:disabled .btn {
 }
 
 .btn-primary {
-  color: #FFFEFE;
-  background-color: #Ffd700;
-  border-color: #Ffd700;
+  color: #000;
+  background-color: #FCB83B;
+  border-color: #FCB83B;
 }
 
 .btn-primary:hover {
-  color: #FFFEFE;
-  background-color: #ca413c;
-  border-color: #be3e39;
+  color: #FCB83B;
+  background-color: #000;
+  border-color: #FCB83B;
 }
 
 .btn-check:focus + .btn-primary, .btn-primary:focus {
@@ -7234,7 +7234,7 @@ fieldset:disabled .btn {
 
 .accordion-button:focus {
   z-index: 3;
-  border-color: #FFFEFE;
+  border-color: #000;
   outline: 0;
   -webkit-box-shadow: #F9FAFD;
   box-shadow: #F9FAFD;
