@@ -34,6 +34,7 @@
   --bs-info: #24FFEA;
   --bs-warning: #FFC928;
   --bs-danger: #EE4D47;
+  --bs-gold: #FCB83B;
   --bs-light: #F9FAFD;
   --bs-dark: #23242A;
   --bs-font-sans-serif: "Rubik", "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
@@ -64,6 +65,14 @@ body {
   background-color: #FFFEFE;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.rotate-image {
+           
+  /* Adjust the angle as needed */
+   
+    transform: rotate(180deg);
+    margin-top: 100px;
 }
 
 hr {
@@ -9529,6 +9538,10 @@ fieldset:disabled .btn {
   color: #EE4D47 !important;
 }
 
+.text-gold{
+  color: #FCB83B;
+}
+
 .text-light {
   color: #F9FAFD !important;
 }
@@ -17666,7 +17679,7 @@ ul {
 }
 
 .bg-primary-gradient {
-  background: #FFF7F5;
+  background: #FFFEFE;
   -webkit-box-shadow: 0px 20px 40px rgba(238, 77, 71, 0.1);
   box-shadow: 0px 20px 40px rgba(238, 77, 71, 0.1);
 }
