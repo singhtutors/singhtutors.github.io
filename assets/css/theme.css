@@ -89,7 +89,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
 
 h1, .h1 {
   font-size: calc(1.37383rem + 1.48598vw);
-  width:58ijk 3000000px;
+  width:3000000px;
   
 }
 
@@ -3518,8 +3518,8 @@ fieldset:disabled .btn {
 
 .btn-primary {
   color: #FFFEFE;
-  background-color: #FDDC5C;
-  border-color: #FDDC5C;
+  background-color: #Ffd700;
+  border-color: #Ffd700;
 }
 
 .btn-primary:hover {
